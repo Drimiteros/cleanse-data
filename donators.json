@@ -16,18 +16,6 @@
             "donation_date": "2025-11-02"
         },
         {
-            "name": "Test user",
-            "message": "",
-            "donation_amount": "0.01",
-            "donation_date": "0000-00-00"
-        },
-        {
-            "name": "Test user 2",
-            "message": "Testing message",
-            "donation_amount": "0.01",
-            "donation_date": "0000-00-00"
-        },
-        {
             "name": "cfman",
             "message": "Love it! Thanks",
             "donation_amount": "1.00",
