@@ -21,10 +21,10 @@ void relaunchAsAdmin() {
 
 Main_loop::Main_loop() {
     // Check if the app runs with admin privileges
-    //if (!isRunningAsAdmin()) {
-    //    relaunchAsAdmin();
-    //    return;
-    //}
+    if (!isRunningAsAdmin()) {
+        relaunchAsAdmin();
+        return;
+    }
 
     // Remove the installer file if it exists
     try { fs::remove("Cleanse Live Version Setup.exe"); }
@@ -144,4 +144,5 @@ void Main_loop::draw_layer() {
     if (current_state == Enums::UPDATE_SCREEN)
         update_check.draw(window);
     //window.draw(cursor);
+
 }
